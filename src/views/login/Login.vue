@@ -74,6 +74,7 @@ export default {
         window.sessionStorage.setItem('token', res.data.token)
 
         // 2.跳转到首页
+        this.$router.push({ name: 'Home' })
       })
     },
     // 密码输入框获得焦点
