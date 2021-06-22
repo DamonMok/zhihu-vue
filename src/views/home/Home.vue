@@ -1,12 +1,16 @@
 <template>
   <div>
-    首页
+    <Navigation></Navigation>
   </div>
 </template>
 
 <script>
-export default {
+import Navigation from 'components/contents/Navigation'
 
+export default {
+  components: {
+    Navigation,
+  },
 }
 </script>
 
